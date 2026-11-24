@@ -34,7 +34,17 @@ namespace BalatroConsole
             }
         }
 
+        public Card Draw()
+        {
+            if (Cards.Count == 0)
+            {
+                throw new InvalidOperationException("Deck is empty");
+            }
 
+            Card drawnCard = Cards[0];
+            Cards.RemoveAt(0);
+            return drawnCard;
+        }
 
     }
 }

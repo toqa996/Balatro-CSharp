@@ -4,9 +4,11 @@ Deck deck = new Deck();
 
 deck.Shuffle();
 
-foreach (Card card in deck.Cards)
-{
-    Console.WriteLine($"{card.Suit} {card.Rank}");
-}
+Card card1 = deck.Draw();
+
+Console.WriteLine($"{card1.Suit} {card1.Rank}");
+Console.WriteLine(deck.Cards.Count);
+
+
 
 
