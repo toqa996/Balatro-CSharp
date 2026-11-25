@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BalatroConsole
 {
-    internal class Card
+     class Card
     {
         public Suit Suit;
         public Rank Rank;

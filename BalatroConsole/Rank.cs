@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BalatroConsole
 {
-   public enum Rank
+    enum Rank
     {
         Two = 2,
         Three = 3,

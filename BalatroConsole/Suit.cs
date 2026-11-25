@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BalatroConsole
 {
-   public enum Suit
+    enum Suit
     {
         Hearts,
         Diamonds,

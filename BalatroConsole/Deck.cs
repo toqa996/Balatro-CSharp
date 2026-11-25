@@ -4,12 +4,14 @@ using System.Text;
 
 namespace BalatroConsole
 {
-    internal class Deck
+    class Deck
     {
         public List<Card> Cards = new List<Card>();
-        //constractor //
+
+        //Deck Constructor //
         public Deck()
         {
+            //Nested foreach //
             foreach (Suit suit in Enum.GetValues<Suit>())
             {
                 foreach (Rank rank in Enum.GetValues<Rank>())
